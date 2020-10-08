@@ -1,8 +1,9 @@
 <template>
   <div class="test d-flex">
     <div class="pr-5 mr-5 text--config">
-      <h1 class="white--text">{{ rubric }}</h1>
+      <h2 class="white--text">{{ rubric }}</h2>
       <p class="white--text">{{ description }}</p>
+      <v-btn>Gå till projekt</v-btn>
     </div>
     <img :src="getImgUrl()" class="img--max-width" :alt="imgSrc" />
   </div>
@@ -32,7 +33,7 @@ export default {
 }
 
 .test {
-  background-color: black;
+  background-color: grey;
   padding: 3%;
 }
 

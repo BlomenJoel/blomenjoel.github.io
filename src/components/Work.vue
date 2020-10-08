@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Work</h1>
+    <h1 class="pb-4">PROJECTS</h1>
     <project
       v-for="project in projects"
       class="mx-3 my-3"

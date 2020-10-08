@@ -26,17 +26,19 @@
       <v-spacer />
     </div>
     <work class="page-padding" />
+    <about-me class="page-padding"/>
   </div>
 </template>
 
 <script>
 import RubricWithUnderScore from "../components/RubricWithUnderScore.vue";
 import Work from "../components/Work.vue";
-
+import AboutMe from "../components/AboutMe.vue";
 export default {
   components: {
     RubricWithUnderScore,
     Work,
+    AboutMe,
   },
 };
 </script>
@@ -48,7 +50,7 @@ export default {
   position: absolute;
 }
 .bottom-rubric--padding {
-  padding-top: 38%;
+  padding-top: 33%;
 }
 .raise-z-index {
   z-index: 2;
@@ -59,6 +61,6 @@ export default {
   padding-right: 5%;
 }
 .page-padding {
-  padding-top: 20%;
+  padding-top: 10%;
 }
 </style>
