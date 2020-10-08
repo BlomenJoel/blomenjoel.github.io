@@ -7,6 +7,6 @@ export const projectText = [
   {
     rubric: "Planerings applikation",
     description: "Här övade jag mig på UX och affärsvärde. blablabla",
-    imgSrc: "./show-off-camera.png"
+    imgSrc: "./desktop-calendar.png"
   },
 ];

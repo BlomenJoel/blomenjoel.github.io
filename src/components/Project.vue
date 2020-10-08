@@ -1,6 +1,6 @@
 <template>
   <div class="test d-flex">
-    <div class="pr-5 mr-5 text--width">
+    <div class="pr-5 mr-5 text--config">
       <h1 class="white--text">{{ rubric }}</h1>
       <p class="white--text">{{ description }}</p>
     </div>
@@ -33,11 +33,12 @@ export default {
 
 .test {
   background-color: black;
-  padding: 6%;
+  padding: 3%;
 }
 
-.text--width {
-  width: 30%;
+.text--config {
+  width: 40%;
+  text-align: left;
 }
 .white--text {
   color: white;

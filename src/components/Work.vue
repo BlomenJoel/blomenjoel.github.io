@@ -3,7 +3,7 @@
     <h1>Work</h1>
     <project
       v-for="project in projects"
-      class="mx-5 my-5"
+      class="mx-3 my-3"
       :rubric="project.rubric"
       :key="project.rubric"
       :description="project.description"
