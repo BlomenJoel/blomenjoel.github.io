@@ -1,12 +1,10 @@
 <template>
   <div>
-    <h1 class="pb-4">ABOUT ME</h1>
+    <h1 class="pb-4">OM MIG</h1>
     <div class="d-flex">
       <div class="text-area--size px-4">
-        <h2>test</h2>
         <p>
-          I THINK THAT PRETTY MUCH SUMS IT UP. THATS WHAT I WANT TO DO, AND
-          THATS HOW I CAN HELP. I LIKE DOGS AND CATS, BUT DOGS ROCK.
+          Min profil är byggd på bredd. Eller nåt? 
         </p>
       </div>
       <img src="../assets/joel3.gif" class="text-area--size" />

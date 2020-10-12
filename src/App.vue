@@ -9,10 +9,16 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 import "vuetify/dist/vuetify.min.css"; // Ensure you are using css-loader
 
-export default {
-  name: "App",
-  components: {},
-};
+Vue.use(Vuetify)
+Vue.use(BootstrapVue)
+Vue.use(IconsPlugin)
+
+  export default {
+    name: "App",
+    components: {
+      StartPage,
+    },
+  };
 </script>
 
 <style>
