@@ -1,31 +1,27 @@
 <template>
   <div>
-    <project-complete-start :project="project" />
+    <project-start :project="project" />
   </div>
 </template>
 
 <script>
-  import ProjectCompleteStart from "./ProjectCompleteStart.vue";
+  import ProjectStart from "./ProjectStart.vue";
   import { Projects } from "../service/projectText.ts";
   export default {
-    components: { ProjectCompleteStart },
+    components: { ProjectStart },
     props: {},
-    computed: {
-      test() {
-        console.log("this router", this.$route.params.name);
-        return "puss";
-      },
-    },
+    computed: {},
     data() {
       return {
-        project: undefined,
+        project: Projects,
       };
     },
-    mounted() {
+    created() {
       this.getProjectData();
     },
     methods: {
       getProjectData() {
+        console.log("projects", Projects);
         this.project = Projects[0];
       },
     },
