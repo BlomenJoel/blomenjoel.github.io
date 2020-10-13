@@ -5,7 +5,7 @@ Vue.config.productionTip = false
 import Vuetify from 'vuetify'
 import VueRouter from 'vue-router'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
-import Project from './components/Project.vue'
+import Project from './components/Project/Project.vue'
 import StartPage from './views/StartPage.vue'
 const routes = [
   { path: '/project/:name', component: Project, name:'project' },

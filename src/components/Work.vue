@@ -14,27 +14,30 @@
 </template>
 
 <script>
-import ProjectPreview from "../components/ProjectPreview.vue";
-import { projectText } from "../service/projectText.ts";
-export default {
-  components: { ProjectPreview },
-  props: {},
-  computed: {},
-  data() {
-    return {
-      projects: projectText,
-    };
-  },
-  methods: {
-    routeToProject(project) {
-      this.$router.push({ name: "project", params: { name: project.rubric } });
+  import ProjectPreview from "./Project/ProjectPreview.vue";
+  import { projectText } from "../service/projectText.ts";
+  export default {
+    components: { ProjectPreview },
+    props: {},
+    computed: {},
+    data() {
+      return {
+        projects: projectText,
+      };
     },
-  },
-};
+    methods: {
+      routeToProject(project) {
+        this.$router.push({
+          name: "project",
+          params: { key: project.key, name: project.key },
+        });
+      },
+    },
+  };
 </script>
 
 <style scoped>
-.project-margin {
-  margin: 0 2% 2% 2%;
-}
+  .project-margin {
+    margin: 0 2% 2% 2%;
+  }
 </style>
