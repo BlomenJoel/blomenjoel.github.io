@@ -9,7 +9,7 @@ export const projectText = [
     key: 'calendar',
     rubric: "Planerings applikation",
     description: "Inspirerad av '7 Habits of Highly Effective People' skapade jag en kalender. Den följer Stephen Covey's råd om hur 4'e generationens planerings verktyg ska se ut. ",
-    imgSrc: "./desktop-calendar.png"
+    imgSrc: "./desktop-calendar.png",
   },
 ];
 
@@ -18,12 +18,14 @@ export const Projects = [
     key: 'camera',
     background: "camera-background",
     title:'Kamera webb applikation',
-    summary: 'Analoga kameror behöver kunna mäta ljusstyrka, det går att göra med hjälp av kameran i ens telefon balbaklala.'
+    summary: 'Analoga kameror behöver kunna mäta ljusstyrka, det går att göra med hjälp av kameran i ens telefon balbaklala.',
+    backgroundImgSrc: "./desktop-calendar.png",
   },
   {
     key: 'calendar',
     background: "calendar-background",
     title:'Planerings webb applikation',
-    summary: 'Nåt babbel om en bok och grejer'
+    summary: 'Nåt babbel om en bok och grejer',
+    backgroundImgSrc: "./desktop-calendar.png",
   },
 ];

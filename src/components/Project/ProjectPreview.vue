@@ -72,7 +72,6 @@
 
   .text--config {
     width: 40%;
-    text-align: left;
   }
   .white--text {
     color: white;

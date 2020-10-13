@@ -26,6 +26,5 @@ export default {
 <style scoped>
 .text-area--size {
   width: 50%;
-  text-align: left;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="pb-4">PROJEKT</h1>
+    <h1 class="pb-4 text--center">PROJEKT</h1>
     <project-preview
       v-for="project in projects"
       class="project-margin"

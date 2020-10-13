@@ -15,3 +15,481 @@ p{
     font-size: 14px;
     font-family: Helvetica;
 }
+.text--center {
+    text-align: center;
+}
+.faux-gif {
+    display: block;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: url("../assets/Joels-faces/frame_000_delay-0.03s.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: giffy 3s infinite cubic-bezier(0.47, 0, 0.745, 0.715);
+    /* no fade between frames */
+    animation: giffy 3s infinite steps(1);
+  }
+  .faux-gif:hover {
+    animation-play-state: paused;
+  }
+  
+  @keyframes giffy {
+    0% {
+      background-image: url("../assets/Joels-faces/frame_001_delay-0.03s.png");
+    }
+    0.66% {
+      background-image: url("../assets/Joels-faces/frame_002_delay-0.03s.png");
+    }
+    1.32% {
+      background-image: url("../assets/Joels-faces/frame_003_delay-0.03s.png");
+    }
+    1.98% {
+      background-image: url("../assets/Joels-faces/frame_004_delay-0.03s.png");
+    }
+    2.64% {
+      background-image: url("../assets/Joels-faces/frame_005_delay-0.03s.png");
+    }
+    3.3% {
+      background-image: url("../assets/Joels-faces/frame_006_delay-0.03s.png");
+    }
+    3.96% {
+      background-image: url("../assets/Joels-faces/frame_007_delay-0.03s.png");
+    }
+    4.62% {
+      background-image: url("../assets/Joels-faces/frame_008_delay-0.03s.png");
+    }
+    5.28% {
+      background-image: url("../assets/Joels-faces/frame_009_delay-0.03s.png");
+    }
+    5.94% {
+      background-image: url("../assets/Joels-faces/frame_010_delay-0.03s.png");
+    }
+    6.6% {
+      background-image: url("../assets/Joels-faces/frame_011_delay-0.03s.png");
+    }
+    7.26% {
+      background-image: url("../assets/Joels-faces/frame_012_delay-0.03s.png");
+    }
+    7.92% {
+      background-image: url("../assets/Joels-faces/frame_013_delay-0.03s.png");
+    }
+    8.58% {
+      background-image: url("../assets/Joels-faces/frame_014_delay-0.03s.png");
+    }
+    9.24% {
+      background-image: url("../assets/Joels-faces/frame_015_delay-0.03s.png");
+    }
+    9.9% {
+      background-image: url("../assets/Joels-faces/frame_016_delay-0.03s.png");
+    }
+    10.56% {
+      background-image: url("../assets/Joels-faces/frame_017_delay-0.03s.png");
+    }
+    11.22% {
+      background-image: url("../assets/Joels-faces/frame_018_delay-0.03s.png");
+    }
+    11.88% {
+      background-image: url("../assets/Joels-faces/frame_019_delay-0.03s.png");
+    }
+    12.54% {
+      background-image: url("../assets/Joels-faces/frame_020_delay-0.03s.png");
+    }
+    13.2% {
+      background-image: url("../assets/Joels-faces/frame_021_delay-0.03s.png");
+    }
+    13.86% {
+      background-image: url("../assets/Joels-faces/frame_022_delay-0.03s.png");
+    }
+    14.52% {
+      background-image: url("../assets/Joels-faces/frame_023_delay-0.03s.png");
+    }
+    15.18% {
+      background-image: url("../assets/Joels-faces/frame_024_delay-0.03s.png");
+    }
+    15.84% {
+      background-image: url("../assets/Joels-faces/frame_025_delay-0.03s.png");
+    }
+    16.5% {
+      background-image: url("../assets/Joels-faces/frame_026_delay-0.03s.png");
+    }
+    17.16% {
+      background-image: url("../assets/Joels-faces/frame_027_delay-0.03s.png");
+    }
+    17.82% {
+      background-image: url("../assets/Joels-faces/frame_028_delay-0.03s.png");
+    }
+    18.48% {
+      background-image: url("../assets/Joels-faces/frame_029_delay-0.03s.png");
+    }
+    19.14% {
+      background-image: url("../assets/Joels-faces/frame_030_delay-0.03s.png");
+    }
+    19.8% {
+      background-image: url("../assets/Joels-faces/frame_031_delay-0.03s.png");
+    }
+    20.46% {
+      background-image: url("../assets/Joels-faces/frame_032_delay-0.03s.png");
+    }
+    21.12% {
+      background-image: url("../assets/Joels-faces/frame_033_delay-0.03s.png");
+    }
+    21.78% {
+      background-image: url("../assets/Joels-faces/frame_034_delay-0.03s.png");
+    }
+    22.44% {
+      background-image: url("../assets/Joels-faces/frame_035_delay-0.03s.png");
+    }
+    23.1% {
+      background-image: url("../assets/Joels-faces/frame_036_delay-0.03s.png");
+    }
+    23.76% {
+      background-image: url("../assets/Joels-faces/frame_037_delay-0.03s.png");
+    }
+    24.42% {
+      background-image: url("../assets/Joels-faces/frame_038_delay-0.03s.png");
+    }
+    25.08% {
+      background-image: url("../assets/Joels-faces/frame_039_delay-0.03s.png");
+    }
+    25.74% {
+      background-image: url("../assets/Joels-faces/frame_040_delay-0.03s.png");
+    }
+    26.4% {
+      background-image: url("../assets/Joels-faces/frame_041_delay-0.03s.png");
+    }
+    27.06% {
+      background-image: url("../assets/Joels-faces/frame_042_delay-0.03s.png");
+    }
+    27.72% {
+      background-image: url("../assets/Joels-faces/frame_043_delay-0.03s.png");
+    }
+    28.38% {
+      background-image: url("../assets/Joels-faces/frame_044_delay-0.03s.png");
+    }
+    29.04% {
+      background-image: url("../assets/Joels-faces/frame_045_delay-0.03s.png");
+    }
+    29.7% {
+      background-image: url("../assets/Joels-faces/frame_046_delay-0.03s.png");
+    }
+    30.36% {
+      background-image: url("../assets/Joels-faces/frame_047_delay-0.03s.png");
+    }
+    31.02% {
+      background-image: url("../assets/Joels-faces/frame_048_delay-0.03s.png");
+    }
+    31.68% {
+      background-image: url("../assets/Joels-faces/frame_049_delay-0.03s.png");
+    }
+    32.34% {
+      background-image: url("../assets/Joels-faces/frame_050_delay-0.03s.png");
+    }
+    33% {
+      background-image: url("../assets/Joels-faces/frame_051_delay-0.03s.png");
+    }
+    34.32% {
+      background-image: url("../assets/Joels-faces/frame_052_delay-0.03s.png");
+    }
+    34.98% {
+      background-image: url("../assets/Joels-faces/frame_053_delay-0.03s.png");
+    }
+    36.3% {
+      background-image: url("../assets/Joels-faces/frame_054_delay-0.03s.png");
+    }
+    36.96% {
+      background-image: url("../assets/Joels-faces/frame_055_delay-0.03s.png");
+    }
+    37.62% {
+      background-image: url("../assets/Joels-faces/frame_056_delay-0.03s.png");
+    }
+    38.28% {
+      background-image: url("../assets/Joels-faces/frame_057_delay-0.03s.png");
+    }
+    38.94% {
+      background-image: url("../assets/Joels-faces/frame_058_delay-0.03s.png");
+    }
+    39.6% {
+      background-image: url("../assets/Joels-faces/frame_059_delay-0.03s.png");
+    }
+    40.26% {
+      background-image: url("../assets/Joels-faces/frame_060_delay-0.03s.png");
+    }
+    40.92% {
+      background-image: url("../assets/Joels-faces/frame_061_delay-0.03s.png");
+    }
+    41.58% {
+      background-image: url("../assets/Joels-faces/frame_062_delay-0.03s.png");
+    }
+    42.24% {
+      background-image: url("../assets/Joels-faces/frame_063_delay-0.03s.png");
+    }
+    42.9% {
+      background-image: url("../assets/Joels-faces/frame_064_delay-0.03s.png");
+    }
+    43.56% {
+      background-image: url("../assets/Joels-faces/frame_065_delay-0.03s.png");
+    }
+    44.22% {
+      background-image: url("../assets/Joels-faces/frame_066_delay-0.03s.png");
+    }
+    44.88% {
+      background-image: url("../assets/Joels-faces/frame_067_delay-0.03s.png");
+    }
+    45.54% {
+      background-image: url("../assets/Joels-faces/frame_068_delay-0.03s.png");
+    }
+    46.2% {
+      background-image: url("../assets/Joels-faces/frame_069_delay-0.03s.png");
+    }
+    46.86% {
+      background-image: url("../assets/Joels-faces/frame_070_delay-0.03s.png");
+    }
+    47.52% {
+      background-image: url("../assets/Joels-faces/frame_071_delay-0.03s.png");
+    }
+    48.18% {
+      background-image: url("../assets/Joels-faces/frame_072_delay-0.03s.png");
+    }
+    48.84% {
+      background-image: url("../assets/Joels-faces/frame_073_delay-0.03s.png");
+    }
+    49.5% {
+      background-image: url("../assets/Joels-faces/frame_074_delay-0.03s.png");
+    }
+    50.16% {
+      background-image: url("../assets/Joels-faces/frame_075_delay-0.03s.png");
+    }
+    50.82% {
+      background-image: url("../assets/Joels-faces/frame_076_delay-0.03s.png");
+    }
+    51.48% {
+      background-image: url("../assets/Joels-faces/frame_077_delay-0.03s.png");
+    }
+    52.14% {
+      background-image: url("../assets/Joels-faces/frame_078_delay-0.03s.png");
+    }
+    52.18% {
+      background-image: url("../assets/Joels-faces/frame_079_delay-0.03s.png");
+    }
+    52.86% {
+      background-image: url("../assets/Joels-faces/frame_080_delay-0.03s.png");
+    }
+    53.46% {
+      background-image: url("../assets/Joels-faces/frame_081_delay-0.03s.png");
+    }
+    54.12% {
+      background-image: url("../assets/Joels-faces/frame_082_delay-0.03s.png");
+    }
+    54.78% {
+      background-image: url("../assets/Joels-faces/frame_083_delay-0.03s.png");
+    }
+    55.44% {
+      background-image: url("../assets/Joels-faces/frame_084_delay-0.03s.png");
+    }
+    56.1% {
+      background-image: url("../assets/Joels-faces/frame_085_delay-0.03s.png");
+    }
+    56.76% {
+      background-image: url("../assets/Joels-faces/frame_086_delay-0.03s.png");
+    }
+    57.42% {
+      background-image: url("../assets/Joels-faces/frame_088_delay-0.03s.png");
+    }
+    58.08% {
+      background-image: url("../assets/Joels-faces/frame_088_delay-0.03s.png");
+    }
+    58.74% {
+      background-image: url("../assets/Joels-faces/frame_089_delay-0.03s.png");
+    }
+    59.4% {
+      background-image: url("../assets/Joels-faces/frame_090_delay-0.03s.png");
+    }
+    60.06% {
+      background-image: url("../assets/Joels-faces/frame_091_delay-0.03s.png");
+    }
+    60.72% {
+      background-image: url("../assets/Joels-faces/frame_092_delay-0.03s.png");
+    }
+    61.38% {
+      background-image: url("../assets/Joels-faces/frame_093_delay-0.03s.png");
+    }
+    62.04% {
+      background-image: url("../assets/Joels-faces/frame_094_delay-0.03s.png");
+    }
+    62.7% {
+      background-image: url("../assets/Joels-faces/frame_095_delay-0.03s.png");
+    }
+    63.36% {
+      background-image: url("../assets/Joels-faces/frame_096_delay-0.03s.png");
+    }
+    64.02% {
+      background-image: url("../assets/Joels-faces/frame_097_delay-0.03s.png");
+    }
+    64.68% {
+      background-image: url("../assets/Joels-faces/frame_098_delay-0.03s.png");
+    }
+    65.34% {
+      background-image: url("../assets/Joels-faces/frame_099_delay-0.03s.png");
+    }
+    66% {
+      background-image: url("../assets/Joels-faces/frame_100_delay-0.03s.png");
+    }
+    66.66% {
+      background-image: url("../assets/Joels-faces/frame_100_delay-0.03s.png");
+    }
+    67.32% {
+      background-image: url("../assets/Joels-faces/frame_101_delay-0.03s.png");
+    }
+    67.98% {
+      background-image: url("../assets/Joels-faces/frame_102_delay-0.03s.png");
+    }
+    68.64% {
+      background-image: url("../assets/Joels-faces/frame_103_delay-0.03s.png");
+    }
+    69.3% {
+      background-image: url("../assets/Joels-faces/frame_104_delay-0.03s.png");
+    }
+    69.96% {
+      background-image: url("../assets/Joels-faces/frame_105_delay-0.03s.png");
+    }
+    70.62% {
+      background-image: url("../assets/Joels-faces/frame_106_delay-0.03s.png");
+    }
+    71.28% {
+      background-image: url("../assets/Joels-faces/frame_107_delay-0.03s.png");
+    }
+    71.94% {
+      background-image: url("../assets/Joels-faces/frame_108_delay-0.03s.png");
+    }
+    72.6% {
+      background-image: url("../assets/Joels-faces/frame_109_delay-0.03s.png");
+    }
+    73.26% {
+      background-image: url("../assets/Joels-faces/frame_110_delay-0.03s.png");
+    }
+    73.92% {
+      background-image: url("../assets/Joels-faces/frame_110_delay-0.03s.png");
+    }
+    74.58% {
+      background-image: url("../assets/Joels-faces/frame_111_delay-0.03s.png");
+    }
+    75.24% {
+      background-image: url("../assets/Joels-faces/frame_112_delay-0.03s.png");
+    }
+    75.9% {
+      background-image: url("../assets/Joels-faces/frame_113_delay-0.03s.png");
+    }
+    76.56% {
+      background-image: url("../assets/Joels-faces/frame_114_delay-0.03s.png");
+    }
+    77.22% {
+      background-image: url("../assets/Joels-faces/frame_115_delay-0.03s.png");
+    }
+    77.88% {
+      background-image: url("../assets/Joels-faces/frame_116_delay-0.03s.png");
+    }
+    78.54% {
+      background-image: url("../assets/Joels-faces/frame_117_delay-0.03s.png");
+    }
+    79.2% {
+      background-image: url("../assets/Joels-faces/frame_118_delay-0.03s.png");
+    }
+    79.86% {
+      background-image: url("../assets/Joels-faces/frame_119_delay-0.03s.png");
+    }
+    80.52% {
+      background-image: url("../assets/Joels-faces/frame_120_delay-0.03s.png");
+    }
+    81.18% {
+      background-image: url("../assets/Joels-faces/frame_121_delay-0.03s.png");
+    }
+    81.84% {
+      background-image: url("../assets/Joels-faces/frame_122_delay-0.03s.png");
+    }
+    82.5% {
+      background-image: url("../assets/Joels-faces/frame_123_delay-0.03s.png");
+    }
+    83.16% {
+      background-image: url("../assets/Joels-faces/frame_124_delay-0.03s.png");
+    }
+    83.82% {
+      background-image: url("../assets/Joels-faces/frame_125_delay-0.03s.png");
+    }
+    84.48% {
+      background-image: url("../assets/Joels-faces/frame_126_delay-0.03s.png");
+    }
+    85.14% {
+      background-image: url("../assets/Joels-faces/frame_127_delay-0.03s.png");
+    }
+    85.8% {
+      background-image: url("../assets/Joels-faces/frame_128_delay-0.03s.png");
+    }
+    86.46% {
+      background-image: url("../assets/Joels-faces/frame_129_delay-0.03s.png");
+    }
+    87.12% {
+      background-image: url("../assets/Joels-faces/frame_130_delay-0.03s.png");
+    }
+    87.78% {
+      background-image: url("../assets/Joels-faces/frame_131_delay-0.03s.png");
+    }
+    88.44% {
+      background-image: url("../assets/Joels-faces/frame_132_delay-0.03s.png");
+    }
+    89.1% {
+      background-image: url("../assets/Joels-faces/frame_133_delay-0.03s.png");
+    }
+    89.76% {
+      background-image: url("../assets/Joels-faces/frame_134_delay-0.03s.png");
+    }
+    90.42% {
+      background-image: url("../assets/Joels-faces/frame_135_delay-0.03s.png");
+    }
+    91.08% {
+      background-image: url("../assets/Joels-faces/frame_136_delay-0.03s.png");
+    }
+    91.74% {
+      background-image: url("../assets/Joels-faces/frame_137_delay-0.03s.png");
+    }
+    92.4% {
+      background-image: url("../assets/Joels-faces/frame_138_delay-0.03s.png");
+    }
+    93.06% {
+      background-image: url("../assets/Joels-faces/frame_139_delay-0.03s.png");
+    }
+    93.72% {
+      background-image: url("../assets/Joels-faces/frame_140_delay-0.03s.png");
+    }
+    94.38% {
+      background-image: url("../assets/Joels-faces/frame_141_delay-0.03s.png");
+    }
+    95.04% {
+      background-image: url("../assets/Joels-faces/frame_142_delay-0.03s.png");
+    }
+    95.7% {
+      background-image: url("../assets/Joels-faces/frame_143_delay-0.03s.png");
+    }
+    96.36% {
+      background-image: url("../assets/Joels-faces/frame_144_delay-0.03s.png");
+    }
+    97.02% {
+      background-image: url("../assets/Joels-faces/frame_145_delay-0.03s.png");
+    }
+    97.68% {
+      background-image: url("../assets/Joels-faces/frame_146_delay-0.03s.png");
+    }
+    98.34% {
+      background-image: url("../assets/Joels-faces/frame_147_delay-0.03s.png");
+    }
+    99% {
+      background-image: url("../assets/Joels-faces/frame_148_delay-0.03s.png");
+    }
+    100% {
+      background-image: url("../assets/Joels-faces/frame_149_delay-0.03s.png");
+    }
+  }
