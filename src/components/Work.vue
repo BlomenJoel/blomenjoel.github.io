@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="pb-4 text--center">PROJEKT</h1>
+    <h1 class="pb-4 text--center color-underscore">PROJEKT</h1>
     <project-preview
       v-for="project in projects"
       class="project-margin"
@@ -38,6 +38,16 @@
 
 <style scoped>
   .project-margin {
-    margin: 0 2% 2% 2%;
+    margin: 0 0 2% 0;
+  }
+  .color-underscore {
+    height: 100%;
+    position: relative;
+    bottom: 37px;
+    background-position: 90px 20px;
+    background-image: linear-gradient(45deg, #bada55, #bada55);
+    max-width: 300px;
+    max-height: 40px;
+    margin: auto;
   }
 </style>

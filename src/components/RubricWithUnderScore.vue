@@ -1,7 +1,5 @@
 <template>
-  <div class="max-width">
-    <h1 class="z-index underscore" :class="colorTest">{{ title }}</h1>
-  </div>
+    <h1 class="z-index underscore text--center max-width" :class="colorTest">{{ title }}</h1>
 </template>
 
 <script>
