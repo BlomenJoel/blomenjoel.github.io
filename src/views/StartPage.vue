@@ -20,8 +20,8 @@
       <rubric-with-under-score class="raise-z-index" title="UX" color="green" />
       <v-spacer />
     </div>
-    <work class="page-padding" />
-    <about-me class="page-padding" />
+    <work id="project" class="page-padding" />
+    <about-me id="about" class="page-padding" />
   </div>
 </template>
 
