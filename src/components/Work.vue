@@ -15,14 +15,14 @@
 
 <script>
   import ProjectPreview from "./Project/ProjectPreview.vue";
-  import { projectText } from "../service/projectText.ts";
+  import { projectPreviewText } from "../service/projectText.ts";
   export default {
     components: { ProjectPreview },
     props: {},
     computed: {},
     data() {
       return {
-        projects: projectText,
+        projects: projectPreviewText,
       };
     },
     methods: {
