@@ -2,4 +2,3 @@ PROJECT PAGE
 REFACTOR STARTPAGE
 ABOUT ME PAGE CONTENT
 PROJECT PREVIEW CONTENT
-MAKE SOME ROUTING AT THE TOP OF THE APP (START, PROJECTS, ABOUT ME should go to same page diffrent position) https://forum.vuejs.org/t/how-to-handle-anchors-bookmarks-with-vue-router/14563/7
