@@ -4,6 +4,7 @@
     <project-background :project="project" class="page--padding-bottom"/>
     <project-vision :project="project"/>
     <project-style :project="project" class="page--padding-bottom"/>
+    <project-result :project="project"/> 
   </div>
 </template>
 
@@ -12,9 +13,10 @@
   import ProjectBackground from "./ProjectBackground.vue";
   import ProjectVision from "./ProjectVision.vue";
   import ProjectStyle from "./ProjectStyle.vue";
+  import ProjectResult from "./ProjectResult.vue";
   import { Projects } from "../../service/projectText.ts";
   export default {
-    components: { ProjectStart, ProjectBackground, ProjectVision, ProjectStyle },
+    components: { ProjectStart, ProjectBackground, ProjectVision, ProjectStyle, ProjectResult },
     props: {},
     computed: {},
     data() {

@@ -41,7 +41,8 @@ export default {
   background-size: 100%;
 }
 .calendar-background {
-  background-image: url("../../assets/calendar-background.png");
-  background-size: 100%;
+  background-image: url("../../assets/photos/sara-on-rock.jpg");
+  background-size:contain;
+  background-position: center;
 }
 </style>

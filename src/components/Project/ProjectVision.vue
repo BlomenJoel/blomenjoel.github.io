@@ -1,8 +1,8 @@
 <template>
 <div >
   <div class="size--page">
-    <div class="size--text background--size" :class="project.background">
-      <h2>Vision</h2>
+    <div class="size--text" :class="project.background">
+      <h2>VISION</h2>
       <p>{{project.visionText}}</p>
     </div>
   </div>
@@ -38,18 +38,19 @@ export default {
 }
 .camera-background {
   background-image: url("../../assets/camera-triangle.png");
+  position: relative;
+  background-position: 120px 110px;
     background-size: 60%;
+     height: 100%;
+      padding-bottom: 20%;
    
 }
 .calendar-background {
-  background-image: url("../../assets/calendar-background.png");
-  background-size: 100%;
-}
-.background--size {
-     height: 100%;
-  position: relative;
-  background-position: 120px 110px;
-      padding-bottom: 20%;
-
+       height: 100%;
+    position: relative;
+    padding: 10px;
+    background-position: 30px 20px;
+    background-image: linear-gradient(45deg, #373e4b, #373e4b);
+    margin: auto;
 }
 </style>
