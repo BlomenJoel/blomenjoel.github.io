@@ -1,10 +1,11 @@
 <template>
-  <div class="d-flex">
-    <div class="px-5">
+  <div :class="project.background">
+  <div class="size--page">
+    <div class="size--text">
       <h2>BAKGRUND</h2>
-      <p></p>
+      <p>{{project.backgroundText}}</p>
     </div>
-    <img :src="getImgUrl" class="img--max-width" :alt="imgSrc" />
+  </div>
   </div>
 </template>
 
@@ -12,13 +13,10 @@
 export default {
   components: {},
   props: {
-    imgSrc: String,
+    background: String,
+    project: Object,
   },
   computed: {
-    getImgUrl() {
-      const img = require.context("../../assets", false);
-      return img(this.imgSrc);
-    },
   },
   data() {
     return {};
@@ -29,6 +27,21 @@ export default {
 </script>
 
 <style scoped>
-.img--max-width{
-    max-width: 60%;
-}</style>
+.size--page {
+  height: 80%;
+   padding: 15% 10%;
+}
+.size--text {
+  width: 40%;
+  color:white;
+  padding-right: 7%;
+}
+.camera-background {
+  background-image: url("../../assets/italy-window.jpg");
+  background-size: 100%;
+}
+.calendar-background {
+  background-image: url("../../assets/calendar-background.png");
+  background-size: 100%;
+}
+</style>

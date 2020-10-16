@@ -1,7 +1,7 @@
 <template>
   <div :class="background">
-    <div  class="pl-5 d-md-flex padding-top test">
-      <div class="pr-md-5 text-area--color">
+    <div class="pl-5 pb-5 d-md-flex padding-top test">
+      <div class="px-md-5 text-area--color">
         <h2>PROJEKT</h2>
         <p>{{ project.title }}</p>
       </div>
@@ -32,13 +32,15 @@ export default {
 .camera-background {
   background-image: url("../../assets/camera-background.png");
   background-size: 100%;
+  background-color: white;
 }
 .calendar-background {
   background-image: url("../../assets/calendar-background.png");
   background-size: 100%;
+  background-color: white;
 }
 .test {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .text-area--size {
   max-width: 40%;
@@ -47,6 +49,6 @@ export default {
   color: white;
 }
 .padding-top {
-  padding-top: 35%;
+  padding-top: 30%;
 }
 </style>
