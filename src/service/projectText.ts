@@ -11,6 +11,12 @@ export const projectPreviewText = [
     description: "Inspirerad av '7 Habits of Highly Effective People' skapade jag 'fjärde generationens planeringsverktyg', som Stephen Covey kallar det. ",
     imgSrc: "./desktop-calendar.png",
   },
+  {
+    key: 'photos',
+    rubric: "Diverse foton och grafik",
+    description: "Ett av mina intressen är att fota så här är några av bilderna jag har tagit.",
+    imgSrc: "./joel-in-photo-room.jpg",
+  },
 ];
 
 export const Projects = [

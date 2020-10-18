@@ -1,20 +1,28 @@
 <template>
   <div id="app">
-    <div class="d-flex pt-5 pb-3"  id="start">
-      <v-spacer />
-      <router-link class="router px-3 " to="/#start" @click.native="scrollFix('#start')"
-        >START</router-link
-      >
-      <router-link
-        class="router px-3"
-        to="/#project"
-        @click.native="scrollFix('#project')"
-        >PROJEKT</router-link
-      >
-      <router-link class="router px-3" to="/#about" @click.native="scrollFix('#about')"
-        >OM MIG</router-link
-      >
-      <v-spacer />
+    <div class="height--router" id="start">
+      <div class="py-4 d-flex ">
+        <v-spacer />
+        <router-link
+          class="router px-3 "
+          to="/#start"
+          @click.native="scrollFix('#start')"
+          >START</router-link
+        >
+        <router-link
+          class="router px-3"
+          to="/#project"
+          @click.native="scrollFix('#project')"
+          >PROJEKT</router-link
+        >
+        <router-link
+          class="router px-3"
+          to="/#about"
+          @click.native="scrollFix('#about')"
+          >OM MIG</router-link
+        >
+        <v-spacer />
+      </div>
     </div>
     <router-view />
   </div>
@@ -44,6 +52,9 @@
 </script>
 
 <style>
+  .height--router {
+    height: 8vh;
+  }
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -52,12 +63,12 @@
     color: #2c3e50;
   }
   .router {
-  color: rgb(100, 100, 100);
-  font-size: 2em;
-  font-weight: bold;
-}
-.router:hover {
-  color: black;
-  text-decoration: none;
-}
+    color: rgb(100, 100, 100);
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .router:hover {
+    color: black;
+    text-decoration: none;
+  }
 </style>

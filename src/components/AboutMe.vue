@@ -29,7 +29,7 @@
           //J
         </p>
       </div>
-      <img src="../assets/photos/joel-in-photo-room.jpg" class="text-area--size" />
+      <img src="../assets/joel-in-photo-room.jpg" class="text-area--size" />
     </div>
   </div>
 </template>
