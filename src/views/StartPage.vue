@@ -26,6 +26,7 @@
     </div>
     <work id="project" class="page-padding" />
     <about-me id="about" class="page-padding" />
+    <contact class="page-padding"/>
   </div>
 </template>
 
@@ -33,11 +34,13 @@
   import RubricWithUnderScore from "../components/RubricWithUnderScore.vue";
   import Work from "../components/Work.vue";
   import AboutMe from "../components/AboutMe.vue";
+  import Contact from "../components/Contact.vue";
   export default {
     components: {
       RubricWithUnderScore,
       Work,
       AboutMe,
+      Contact,
     },
   };
 </script>

@@ -1,13 +1,35 @@
 <template>
-  <div>
+  <div class="pb-5">
     <h1 class="pb-4 text--center color-underscore">OM MIG</h1>
     <div class="d-flex">
       <div class="text-area--size">
         <p>
-          Min profil är byggd på bredd. Eller nåt? 
+          Hej, Jag heter Joel Blomén och är förnuvarande utvecklare hos Dahl.
+        </p>
+        <p>
+          I grunden är jag utbildad produktutvecklare vid Chalmers universitet,
+          och det i kombination med erfarenheten som programmerare ger mig en
+          unik möjlighet att närma mig arbetet från två olika perspektiv. Dels
+          har jag god förståelse för den tekniska lösningen, dels har jag insikt
+          i hur vi kan skapa en bättre upplevelse för användarna.
+        </p>
+        <p>
+          På fritiden håller jag även på med fysisk design, och är aktiv i ett
+          makerspace. Jag har nästan alltid kameran med mig, och längtar efter
+          att få tillgång till ett ställe att framkalla min analoga film, tills
+          dess fortsätter jag fuska med min digitala kamera och effekter i
+          Lightroom. Jag jobbar också mot mitt mål att klara av ett triathlon.
+          Planerna att tävla sommaren 2020 gick i stöpet, men träningen mot
+          sommaren 2021 är i full gång!
+        </p>
+        <p>
+          Jag är en kompetent och driven utvecklare, med en positiv och ödmjuk
+          attityd. <br />Ni får gärna höra av er om ni vill veta mer!
+          </p><p>
+          //J
         </p>
       </div>
-      <img src="../assets/joel3.gif" class="text-area--size" />
+      <img src="../assets/photos/joel-in-photo-room.jpg" class="text-area--size" />
     </div>
   </div>
 </template>
@@ -27,14 +49,14 @@ export default {
 .text-area--size {
   width: 50%;
 }
- .color-underscore {
-    height: 100%;
-    position: relative;
-    bottom: 37px;
-    background-position: -90px 20px;
-    background-image: linear-gradient(45deg,  #ffb7b7, #ffb7b7);
-    max-width: 300px;
-    max-height: 40px;
-    margin: auto;
-  }
+.color-underscore {
+  height: 100%;
+  position: relative;
+  bottom: 37px;
+  background-position: -90px 20px;
+  background-image: linear-gradient(45deg, #ffb7b7, #ffb7b7);
+  max-width: 300px;
+  max-height: 40px;
+  margin: auto;
+}
 </style>
