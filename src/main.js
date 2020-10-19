@@ -27,6 +27,14 @@ const router = new VueRouter({
   },
 });
 
+const DEFAULT_TITLE = 'Joel Blomén Portfolio'
+
+router.afterEach((to) => {
+  Vue.nextTick(() => {
+    document.title = to.meta.title || DEFAULT_TITLE;
+  });
+});
+
 Vue.use(Vuetify);
 Vue.use(VueRouter);
 Vue.use(BootstrapVue);
