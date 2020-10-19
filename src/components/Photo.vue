@@ -25,7 +25,7 @@
         return require(`../assets/photos/${filename}`);
       },
       closeLightbox() {
-        this.$router.push("/photo");
+        this.$router.push("/photos");
       },
     },
   };
@@ -33,6 +33,7 @@
 
 <style>
   .lightbox {
+    margin-top: 1%;
     max-width: 100%;
     max-height: 100%;
     background-color: rgba(0, 0, 0, 0.9);

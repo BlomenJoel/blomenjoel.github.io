@@ -47,7 +47,8 @@ export default {
 
 <style scoped>
 .text-area--size {
-  width: 50%;
+  width: 45%;
+  padding: 0% 5%;
 }
 .color-underscore {
   height: 100%;

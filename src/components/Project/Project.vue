@@ -29,7 +29,7 @@
     },
     methods: {
       getProjectData() {
-        this.project = Projects.find(project => project.key === this.$route.params.key );
+        this.project = Projects.find(project => project.key === this.$route.params.id );
       },
     },
   };

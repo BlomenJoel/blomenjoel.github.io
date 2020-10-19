@@ -26,7 +26,7 @@
     </div>
     <work id="project" class="page-padding" />
     <about-me id="about" class="page-padding" />
-    <contact class="page-padding"/>
+    <contact/>
   </div>
 </template>
 

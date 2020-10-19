@@ -9,11 +9,11 @@ import StartPage from "./views/StartPage.vue";
 import Gallery from "./components/Gallery.vue";
 import Photo from "./components/Photo.vue";
 const routes = [
-  { path: "/project/:name", component: Project, name: "project" },
+  { path: "/project/:id", component: Project, name: "project" },
   { path: "/", component: StartPage, name: "home" },
-  { path: "/photo", component: Gallery, name: "photos" },
+  { path: "/photos", component: Gallery, name: "photos" },
   {
-    path: "/photo/:id",
+    path: "/photos/:id",
     name: "photo",
     component: Photo,
   },

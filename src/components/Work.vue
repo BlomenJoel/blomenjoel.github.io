@@ -28,8 +28,8 @@
     methods: {
       routeToProject(project) {
         this.$router.push({
-          name: "photos",
-          params: { name: project.key },
+          name: project.key,
+          params: { id: project.id },
         });
       },
     },
