@@ -2,39 +2,47 @@
   <div class="d-flex contact--height">
     <v-spacer />
     <v-icon>{{ phoneIcon }}</v-icon>
-    <p class="pt-3 pl-2 pr-5">072-200 28 64</p>
-    <v-icon>{{ emailIcon }}</v-icon>
-    <p class="pt-3 pl-2 pr-5">blomenjoel@gmail.com</p>
+    <p class="pt-3 pl-2 pr-5 text--link">072-200 28 64</p>
+    <a href="mailto: blomenjoel@gmail.com" class="d-flex">
+      <v-icon>{{ emailIcon }} </v-icon>
+      <p class="pt-3 pl-2 pr-5 text--link">
+        blomenjoel@gmail.com
+      </p>
+    </a>
     <a :href="item.loc" download>
-      <img src="@/assets/cv-icon.jpg" class="resume--size pt-1" />
+      <img src="@/assets/CV-logo.png" class="resume--size pt-1" />
+      <span class="text--link pl-2 pt-2">CV</span>
     </a>
     <v-spacer />
   </div>
 </template>
 
 <script>
-  import { mdiCellphone } from "@mdi/js";
-  import { mdiEmail } from "@mdi/js";
-  export default {
-    components: {},
-    props: {},
-    computed: {},
-    data() {
-      return {
-        item: { loc: require("../assets/italy-2.jpg") },
-        phoneIcon: mdiCellphone,
-        emailIcon: mdiEmail,
-      };
-    },
-  };
+import { mdiCellphone } from "@mdi/js";
+import { mdiEmail } from "@mdi/js";
+export default {
+  components: {},
+  props: {},
+  computed: {},
+  data() {
+    return {
+      item: { loc: require("../assets/cvJoelBlomen.jpg") },
+      phoneIcon: mdiCellphone,
+      emailIcon: mdiEmail,
+    };
+  },
+};
 </script>
 
 <style scoped>
-  .resume--size {
-    width: 30;
-    height: 40px;
-  }
-  .contact--height {
-    height: 56px;
-  }
+.resume--size {
+  width: 30;
+  height: 40px;
+}
+.contact--height {
+  height: 56px;
+}
+.text--black {
+  color: black;
+}
 </style>

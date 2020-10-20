@@ -11,6 +11,10 @@ h3{
   font-size: 2vw;
   font-family: Helvetica;
 }
+.text--link{
+  font-weight: bold;
+  color: black;
+}
 p{
   font-size: 1vw;
   font-family: Helvetica;
