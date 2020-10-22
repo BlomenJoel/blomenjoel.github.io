@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="pb-4 text--center color-underscore">PROJEKT</h1>
+    <h1 class="mb-4 text--center color-underscore">PROJEKT</h1>
     <project-preview
       v-for="project in projects"
       class="project-margin"
@@ -43,11 +43,11 @@
   .color-underscore {
     height: 100%;
     position: relative;
-    bottom: 37px;
-    background-position: 90px 20px;
     background-image: linear-gradient(45deg, #bada55, #bada55);
-    max-width: 300px;
-    max-height: 40px;
     margin: auto;
+    background-position: 9vw 1.5vw;
+    width: 30vw;
+    max-height: 3vw;
+    padding-bottom: 1vw;
   }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="px-5">
+  <div class="px-md-5 px-2">
     <p class="text--center">JOEL BLOMÉN</p>
     <div class="faux-gif" />
     <div class="d-flex top-rubric--position">
@@ -26,7 +26,6 @@
     </div>
     <work id="project" class="page-padding" />
     <about-me id="about" class="page-padding" />
-    <contact/>
   </div>
 </template>
 
@@ -34,13 +33,11 @@
   import RubricWithUnderScore from "../components/RubricWithUnderScore.vue";
   import Work from "../components/Work.vue";
   import AboutMe from "../components/AboutMe.vue";
-  import Contact from "../components/Contact.vue";
   export default {
     components: {
       RubricWithUnderScore,
       Work,
       AboutMe,
-      Contact,
     },
   };
 </script>

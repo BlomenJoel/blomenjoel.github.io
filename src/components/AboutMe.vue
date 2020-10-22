@@ -1,5 +1,5 @@
 <template>
-  <div class="pb-5">
+  <div>
     <h1 class="pb-4 text--center color-underscore">OM MIG</h1>
     <div class="d-flex">
       <div class="text-area--size">
@@ -25,39 +25,45 @@
         <p>
           Jag är en kompetent och driven utvecklare, med en positiv och ödmjuk
           attityd. <br />Ni får gärna höra av er om ni vill veta mer!
-          </p><p>
+        </p>
+        <p>
           //J
         </p>
       </div>
-      <img src="../assets/joel-photo.jpg" class="text-area--size" />
+      <img src="../assets/joel-photo.jpg" class="ml-5 image--size" />
     </div>
   </div>
 </template>
 
 <script>
-export default {
-  components: {},
-  props: {},
-  computed: {},
-  data() {
-    return {};
-  },
-};
+  export default {
+    components: {},
+    props: {},
+    computed: {},
+    data() {
+      return {};
+    },
+  };
 </script>
 
 <style scoped>
-.text-area--size {
-  width: 45%;
-  padding: 0% 5%;
-}
-.color-underscore {
-  height: 100%;
-  position: relative;
-  bottom: 37px;
-  background-position: -90px 20px;
-  background-image: linear-gradient(45deg, #ffb7b7, #ffb7b7);
-  max-width: 300px;
-  max-height: 40px;
-  margin: auto;
-}
+  .text-area--size {
+    width: 45%;
+    padding: 0% 5%;
+  }
+  .image--size {
+    width: 40%;
+    height: 40%;
+  }
+  .color-underscore {
+    height: 100%;
+    position: relative;
+    background-image: linear-gradient(45deg, #ffb7b7, #ffb7b7);
+    margin: auto;
+    bottom: 3vh;
+    background-position: 9vw 1.5vw;
+    width: 30vw;
+    max-height: 3vw;
+    padding-bottom: 1vw;
+  }
 </style>

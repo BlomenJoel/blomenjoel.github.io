@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="pb-md-5 pb-2">
     <div class="height--router" id="start">
       <div class="py-4 d-flex ">
         <v-spacer />
@@ -7,24 +7,25 @@
           class="router px-3 "
           to="/#start"
           @click.native="scrollFix('#start')"
-          >START</router-link
+          ><h1 class="text--bold">START</h1></router-link
         >
         <router-link
           class="router px-3"
           to="/#project"
           @click.native="scrollFix('#project')"
-          >PROJEKT</router-link
+          ><h1 class="text--bold">PROJEKT</h1></router-link
         >
         <router-link
           class="router px-3"
           to="/#about"
           @click.native="scrollFix('#about')"
-          >OM MIG</router-link
+          ><h1 class="text--bold">OM MIG</h1></router-link
         >
         <v-spacer />
       </div>
     </div>
     <router-view />
+    <contact />
   </div>
 </template>
 
@@ -33,6 +34,7 @@
   import "bootstrap-vue/dist/bootstrap-vue.css";
   import "vuetify/dist/vuetify.min.css"; // Ensure you are using css-loader
   import "./assets/global.css";
+  import Contact from "./components/Contact.vue";
 
   const TIMEOUT = 1;
   export default {
@@ -40,6 +42,9 @@
     mounted() {
       if (this.$route.hash)
         setTimeout(() => this.scrollFix(this.$route.hash), 1);
+    },
+    components: {
+      Contact,
     },
     methods: {
       scrollFix(hashbang) {

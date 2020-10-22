@@ -20,8 +20,8 @@ export default {
 .underscore {
   height: 100%;
   position: relative;
-  bottom: 30px;
-  background-position: 90px 20px;
+  bottom: 3vh;
+  background-position: 9vw 1.5vw;
 }
 .green--text {
   background-image: linear-gradient(45deg, #bada55, #bada55);
@@ -33,6 +33,6 @@ export default {
   background-image: linear-gradient(45deg, #c6d1e4, #c6d1e4);
 }
 .max-width {
-  width: 300px;
+  width: 30vw;
 }
 </style>

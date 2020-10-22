@@ -36,11 +36,10 @@ export default {
 
 <style scoped>
 .resume--size {
-  width: 30;
-  height: 40px;
+  width: 4vw;
 }
 .contact--height {
-  height: 56px;
+  height: 5vh;
 }
 .text--black {
   color: black;

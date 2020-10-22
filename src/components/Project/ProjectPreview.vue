@@ -1,9 +1,11 @@
 <template>
   <div class="d-flex fade">
-    <div class="pr-5 mr-5 text--config">
+    <div class="pr-md-5 mr-5 text--config">
       <h2 class="white--text">{{ rubric }}</h2>
       <p class="white--text">{{ description }}</p>
-      <v-btn @click="$emit('clicked:more')">Gå till projekt</v-btn>
+      <button class="button--style" @click="$emit('clicked:more')">
+        VISA MER
+      </button>
     </div>
     <img :src="getImgUrl()" class="img--max-width" :alt="imgSrc" />
   </div>
@@ -75,5 +77,18 @@
   }
   .white--text {
     color: white;
+  }
+  .button--style {
+    width: 12vw;
+    padding: 1vw 1vh;
+    background-color: white;
+    font-size: 1.5vh;
+    border-radius: 0.5vh;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  }
+
+  .button--style:hover {
+    background-color: #bdbdbd;
   }
 </style>
