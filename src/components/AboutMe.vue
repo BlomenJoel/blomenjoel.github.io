@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pb-md-5">
     <h1 class="pb-4 text--center color-underscore">OM MIG</h1>
     <div class="d-flex">
       <div class="text-area--size">
