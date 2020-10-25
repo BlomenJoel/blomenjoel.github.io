@@ -1,48 +1,60 @@
 <template>
   <div :class="project.background">
-  <div class="size--page">
-    <div class="size--text">
-      <h2>BAKGRUND</h2>
-      <p>{{project.backgroundText}}</p>
+    <div class="size--page">
+      <div class="size--text">
+        <h2>BAKGRUND</h2>
+        <p>{{ project.backgroundText }}</p>
+      </div>
     </div>
-  </div>
   </div>
 </template>
 
 <script>
-export default {
-  components: {},
-  props: {
-    background: String,
-    project: Object,
-  },
-  computed: {
-  },
-  data() {
-    return {};
-  },
-  created() {},
-  methods: {},
-};
+  export default {
+    components: {},
+    props: {
+      background: String,
+      project: Object,
+    },
+    computed: {},
+    data() {
+      return {};
+    },
+    created() {},
+    methods: {},
+  };
 </script>
 
 <style scoped>
-.size--page {
-  height: 80%;
-   padding: 15% 10%;
-}
-.size--text {
-  width: 40%;
-  color:white;
-  padding-right: 7%;
-}
-.camera-background {
-  background-image: url("../../assets/italy-window.jpg");
-  background-size: 100%;
-}
-.calendar-background {
-  background-image: url("../../assets/photos/sara-on-rock.jpg");
-  background-size:contain;
-  background-position: center;
-}
+  .size--page {
+    height: 80%;
+    padding: 15% 10%;
+  }
+  .size--text {
+    width: 40%;
+    color: white;
+    padding-right: 7%;
+  }
+  @media only screen and (max-width: 600px) {
+    .size--text {
+      width: 80%;
+      color: white;
+      padding: 0;
+      margin: auto;
+    }
+    .size--page {
+      height: 80%;
+      padding: 8% 5%;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+  }
+  .camera-background {
+    background-image: url("../../assets/italy-window.jpg");
+    background-size: 100%;
+  }
+  .calendar-background {
+    background-image: url("../../assets/photos/sara-on-rock.jpg");
+    background-size: contain;
+    background-position: center;
+  }
 </style>

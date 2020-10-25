@@ -87,7 +87,14 @@
     box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
       0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   }
-
+  @media only screen and (max-width: 600px) {
+    .button--style {
+      width: 120px;
+      padding: 5px 7px;
+      border-radius: 3px;
+      font-size: 12px;
+    }
+  }
   .button--style:hover {
     background-color: #bdbdbd;
   }

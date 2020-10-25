@@ -66,4 +66,12 @@
     max-height: 3vw;
     padding-bottom: 1vw;
   }
+  @media only screen and (max-width: 600px) {
+    .color-underscore {
+      background-position: 60px 12px;
+      width: 160px;
+      max-height: 20px;
+      padding-bottom: 10xp;
+    }
+  }
 </style>

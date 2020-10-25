@@ -47,4 +47,15 @@
   .text--size {
     font-size: 1vw;
   }
+  @media only screen and (max-width: 600px) {
+    .text--size {
+      font-size: 13px;
+    }
+    .resume--size {
+      width: 20px;
+    }
+    .contact--height {
+      height: 30px;
+    }
+  }
 </style>

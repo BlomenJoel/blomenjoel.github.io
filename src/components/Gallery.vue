@@ -1,10 +1,8 @@
 <template>
   <div class="gallery">
-    <div class="gallery-panel"
-         v-for="photo in photos"
-         :key="photo.id">
+    <div class="gallery-panel" v-for="photo in photos" :key="photo.id">
       <router-link :to="`/photos/${photo.id}`">
-        <img :src="thumbUrl(photo.filename)">
+        <img :src="thumbUrl(photo.filename)" />
       </router-link>
     </div>
   </div>
@@ -13,18 +11,18 @@
 <script>
   import { photos } from "../service/photos.ts";
 
-export default {
-  data() {
-    return {
-      photos,
-    };
-  },
-  methods: {
-    thumbUrl(filename) {
-      return require(`../assets/photos/${filename}`);
+  export default {
+    data() {
+      return {
+        photos,
+      };
     },
-  },
-};
+    methods: {
+      thumbUrl(filename) {
+        return require(`../assets/photos/${filename}`);
+      },
+    },
+  };
 </script>
 
 <style>
@@ -40,5 +38,11 @@ export default {
     width: 100%;
     object-fit: cover;
     border-radius: 0.75rem;
+  }
+  @media only screen and (max-width: 600px) {
+    .gallery {
+      margin: 2rem auto;
+      padding: 0 2rem;
+    }
   }
 </style>

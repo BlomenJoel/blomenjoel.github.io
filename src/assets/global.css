@@ -13,10 +13,30 @@ h3 {
   font-size: 1.2vw;
   font-family: Helvetica;
 }
-
 p {
   font-size: 1vw;
   font-family: Helvetica;
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 23px;
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 16px;
+    font-family: Helvetica;
+  }
+  p {
+    font-size: 13px;
+    font-family: Helvetica;
+  }
 }
 .text--link {
   font-weight: bold;
