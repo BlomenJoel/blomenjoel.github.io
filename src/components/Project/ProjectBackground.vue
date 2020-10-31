@@ -53,7 +53,7 @@
     background-size: 100%;
   }
   .calendar-background {
-    background-image: url("../../assets/photos/sara-on-rock.jpg");
+    background-image: url("../../assets/photos/sara-on-rock.png");
     background-size: contain;
     background-position: center;
   }
