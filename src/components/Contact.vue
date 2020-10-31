@@ -26,7 +26,7 @@
     computed: {},
     data() {
       return {
-        item: { loc: require("../assets/cvJoelBlomen.jpg") },
+        item: {loc: require("../assets/joelBlomenCv.pdf")},
         phoneIcon: mdiCellphone,
         emailIcon: mdiEmail,
       };
