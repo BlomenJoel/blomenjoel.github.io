@@ -1,8 +1,8 @@
 <template>
-  <div class="d-flex contact--height">
+  <div class="d-md-flex contact--height mx-5 my-2">
     <v-spacer />
     <v-icon>{{ phoneIcon }}</v-icon>
-    <p class="pt-2 pl-2 pr-5 text--link">072-200 28 64</p>
+    <span class="pt-2 pl-2 pr-5 text--link">072-200 28 64</span>
     <a href="mailto: blomenjoel@gmail.com" class="d-flex">
       <v-icon>{{ emailIcon }} </v-icon>
       <p class="pt-2 pl-2 pr-5 text--link">

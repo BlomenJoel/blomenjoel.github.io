@@ -43,6 +43,7 @@
     .gallery {
       margin: 2rem auto;
       padding: 0 2rem;
+       grid-template-columns: 0;
     }
   }
 </style>

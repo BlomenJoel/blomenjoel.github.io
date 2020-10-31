@@ -1,7 +1,7 @@
 <template>
   <div class="pb-md-5">
     <h1 class="pb-4 text--center color-underscore">OM MIG</h1>
-    <div class="d-flex">
+    <div class="d-md-flex">
       <div class="text-area--size">
         <p>
           Hej, Jag heter Joel Blomén och är förnuvarande utvecklare hos Dahl.
@@ -30,7 +30,7 @@
           //J
         </p>
       </div>
-      <img src="../assets/joel-photo.jpg" class="ml-5 image--size" />
+      <img src="../assets/joel-photo.jpg" class="ml-md-5 image--size" />
     </div>
   </div>
 </template>
@@ -73,5 +73,13 @@
       max-height: 20px;
       padding-bottom: 10xp;
     }
+    .text-area--size {
+    width: 100%;
+    padding: 0% 5%;
+  }
+  .image--size {
+    width: 100%;
+    height: 100%;
+  }
   }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <h1 class="z-index underscore text--center max-width" :class="colorTest">{{ title }}</h1>
+    <h1 class="z-index underscore text--center max-width font--size__mobile" :class="colorTest">{{ title }}</h1>
 </template>
 
 <script>
@@ -35,4 +35,9 @@ export default {
 .max-width {
   width: 30vw;
 }
+  @media only screen and (max-width: 600px) {
+  .font--size__mobile {
+     font-size: 16px;
+  }
+  }
 </style>

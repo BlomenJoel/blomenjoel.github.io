@@ -35,4 +35,14 @@
     margin: auto;
     width: 40%;
   }
+  @media only screen and (max-width: 600px) {
+    .size--text {
+      width: 80%;
+    }
+      .size--page {
+    height: 80%;
+    padding: 8% 5%;
+  }
+  }
+  
 </style>

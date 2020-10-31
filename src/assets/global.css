@@ -65,6 +65,12 @@ p {
   animation: giffy 3s infinite cubic-bezier(1, -3, 1, 4);
   /* no fade between frames */
 }
+@media only screen and (max-width: 600px) {
+  .faux-gif {
+width: 90%;
+height: 90%;
+  }
+}
 .faux-gif:hover {
   animation-play-state: paused;
 }
