@@ -35,6 +35,15 @@
     color: white;
     padding-right: 7%;
   }
+  .camera-background {
+    background-image: url("../../assets/italy-window.jpg");
+    background-size: 100%;
+  }
+  .calendar-background {
+    background-image: url("../../assets/photos/sara-on-rock.png");
+    background-size: contain;
+    background-position: center;
+  }
   @media only screen and (max-width: 600px) {
     .size--text {
       width: 80%;
@@ -47,14 +56,5 @@
       padding: 8% 5%;
       background-color: rgba(0, 0, 0, 0.6);
     }
-  }
-  .camera-background {
-    background-image: url("../../assets/italy-window.jpg");
-    background-size: 100%;
-  }
-  .calendar-background {
-    background-image: url("../../assets/photos/sara-on-rock.png");
-    background-size: contain;
-    background-position: center;
   }
 </style>

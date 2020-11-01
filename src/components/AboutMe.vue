@@ -36,44 +36,38 @@
 </template>
 
 <script>
-  export default {
-    components: {},
-    props: {},
-    computed: {},
-    data() {
-      return {};
-    },
-  };
+export default {
+};
 </script>
 
 <style scoped>
-  .text-area--size {
-    width: 45%;
-    padding: 0% 5%;
-  }
-  .image--size {
-    width: 40%;
-    height: 40%;
-  }
+.text-area--size {
+  width: 45%;
+  padding: 0% 5%;
+}
+.image--size {
+  width: 40%;
+  height: 40%;
+}
+.color-underscore {
+  height: 100%;
+  position: relative;
+  background-image: linear-gradient(45deg, #ffb7b7, #ffb7b7);
+  margin: auto;
+  bottom: 3vh;
+  background-position: 9vw 1.5vw;
+  width: 30vw;
+  max-height: 3vw;
+  padding-bottom: 1vw;
+}
+@media only screen and (max-width: 600px) {
   .color-underscore {
-    height: 100%;
-    position: relative;
-    background-image: linear-gradient(45deg, #ffb7b7, #ffb7b7);
-    margin: auto;
-    bottom: 3vh;
-    background-position: 9vw 1.5vw;
-    width: 30vw;
-    max-height: 3vw;
-    padding-bottom: 1vw;
+    background-position: 60px 12px;
+    width: 160px;
+    max-height: 20px;
+    padding-bottom: 10xp;
   }
-  @media only screen and (max-width: 600px) {
-    .color-underscore {
-      background-position: 60px 12px;
-      width: 160px;
-      max-height: 20px;
-      padding-bottom: 10xp;
-    }
-    .text-area--size {
+  .text-area--size {
     width: 100%;
     padding: 0% 5%;
   }
@@ -81,5 +75,5 @@
     width: 100%;
     height: 100%;
   }
-  }
+}
 </style>

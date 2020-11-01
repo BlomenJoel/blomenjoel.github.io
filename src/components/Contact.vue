@@ -11,51 +11,48 @@
     </a>
     <a :href="item.loc" download>
       <img src="@/assets/CV-logo.png" class="resume--size pt-1" />
-      <span class="text--link pl-2 pt-2 text--size">CV</span>
+      <span class="text--link pl-2 pt-2 cv--text__size">CV</span>
     </a>
     <v-spacer />
   </div>
 </template>
 
 <script>
-  import { mdiCellphone } from "@mdi/js";
-  import { mdiEmail } from "@mdi/js";
-  export default {
-    components: {},
-    props: {},
-    computed: {},
-    data() {
-      return {
-        item: {loc: require("../assets/joelBlomenCv.pdf")},
-        phoneIcon: mdiCellphone,
-        emailIcon: mdiEmail,
-      };
-    },
-  };
+import { mdiCellphone } from "@mdi/js";
+import { mdiEmail } from "@mdi/js";
+export default {
+  data() {
+    return {
+      item: { loc: require("../assets/joelBlomenCv.jpg") },
+      phoneIcon: mdiCellphone,
+      emailIcon: mdiEmail,
+    };
+  },
+};
 </script>
 
 <style scoped>
+.resume--size {
+  width: 2vw;
+}
+.contact--height {
+  height: 5vh;
+}
+.text--black {
+  color: black;
+}
+.cv--text__size {
+  font-size: 1vw;
+}
+@media only screen and (max-width: 600px) {
+  .cv--text__size {
+    font-size: 13px;
+  }
   .resume--size {
-    width: 2vw;
+    width: 20px;
   }
   .contact--height {
-    height: 5vh;
+    height: 30px;
   }
-  .text--black {
-    color: black;
-  }
-  .text--size {
-    font-size: 1vw;
-  }
-  @media only screen and (max-width: 600px) {
-    .text--size {
-      font-size: 13px;
-    }
-    .resume--size {
-      width: 20px;
-    }
-    .contact--height {
-      height: 30px;
-    }
-  }
+}
 </style>

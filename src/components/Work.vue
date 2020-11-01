@@ -18,8 +18,6 @@
   import { projectPreviewText } from "../service/projectText.ts";
   export default {
     components: { ProjectPreview },
-    props: {},
-    computed: {},
     data() {
       return {
         projects: projectPreviewText,

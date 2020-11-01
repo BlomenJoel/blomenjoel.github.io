@@ -9,41 +9,41 @@
 </template>
 
 <script>
-  import { photos } from "../service/photos.ts";
+import { photos } from "../service/photos.ts";
 
-  export default {
-    data() {
-      return {
-        photos,
-      };
+export default {
+  data() {
+    return {
+      photos,
+    };
+  },
+  methods: {
+    thumbUrl(filename) {
+      return require(`../assets/photos/${filename}`);
     },
-    methods: {
-      thumbUrl(filename) {
-        return require(`../assets/photos/${filename}`);
-      },
-    },
-  };
+  },
+};
 </script>
 
 <style>
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-gap: 1rem;
+  max-width: 80rem;
+  margin: 5rem auto;
+  padding: 0 5rem;
+}
+.gallery-panel img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.75rem;
+}
+@media only screen and (max-width: 600px) {
   .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-    grid-gap: 1rem;
-    max-width: 80rem;
-    margin: 5rem auto;
-    padding: 0 5rem;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    grid-template-columns: auto;
   }
-  .gallery-panel img {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 0.75rem;
-  }
-  @media only screen and (max-width: 600px) {
-    .gallery {
-      margin: 2rem auto;
-      padding: 0 2rem;
-       grid-template-columns: auto;
-    }
-  }
+}
 </style>

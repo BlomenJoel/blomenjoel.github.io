@@ -1,6 +1,6 @@
 <template>
   <div :class="background">
-    <div class="pl-5 pb-5 d-flex padding-top test">
+    <div class="pl-5 pb-5 d-flex padding-top background--black__shade">
       <div class="px-md-5 px-3 text-area--color">
         <h2>PROJEKT</h2>
         <p>{{ project.title }}</p>
@@ -39,7 +39,7 @@
     background-size: 100%;
     background-color: white;
   }
-  .test {
+  .background--grey__shade {
     background-color: rgba(0, 0, 0, 0.6);
   }
   .text-area--size {

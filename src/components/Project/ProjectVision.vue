@@ -10,39 +10,33 @@
 </template>
 
 <script>
-  export default {
-    components: {},
-    props: {
-      background: String,
-      project: Object,
-    },
-    computed: {},
-    data() {
-      return {};
-    },
-    created() {},
-    methods: {},
-  };
+export default {
+  props: {
+    project: Object,
+  },
+  data() {
+    return {};
+  },
+};
 </script>
 
 <style scoped>
-  .size--page {
-    height: 80%;
-    padding: 15%;
-  }
+.size--page {
+  height: 80%;
+  padding: 15%;
+}
+.size--text {
+  color: white;
+  margin: auto;
+  width: 40%;
+}
+@media only screen and (max-width: 600px) {
   .size--text {
-    color: white;
-    margin: auto;
-    width: 40%;
+    width: 80%;
   }
-  @media only screen and (max-width: 600px) {
-    .size--text {
-      width: 80%;
-    }
-      .size--page {
+  .size--page {
     height: 80%;
     padding: 8% 5%;
   }
-  }
-  
+}
 </style>

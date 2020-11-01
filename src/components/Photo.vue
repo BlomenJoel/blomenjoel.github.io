@@ -7,7 +7,6 @@
 <script>
   import { photos } from "../service/photos.ts";
   export default {
-    name: "Photo",
     data() {
       return {
         photos,

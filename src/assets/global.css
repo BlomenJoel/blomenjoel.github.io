@@ -17,27 +17,6 @@ p {
   font-size: 1vw;
   font-family: Helvetica;
 }
-@media only screen and (max-width: 600px) {
-  h1 {
-    font-size: 23px;
-    font-family: Helvetica;
-    font-weight: bold;
-  }
-
-  h2 {
-    font-size: 20px;
-    font-family: Helvetica;
-    font-weight: bold;
-  }
-  h3 {
-    font-size: 16px;
-    font-family: Helvetica;
-  }
-  p {
-    font-size: 13px;
-    font-family: Helvetica;
-  }
-}
 .text--link {
   font-weight: bold;
   color: black;
@@ -63,17 +42,38 @@ p {
   background-repeat: no-repeat;
   background-size: contain;
   animation: giffy 3s infinite cubic-bezier(1, -3, 1, 4);
-  /* no fade between frames */
 }
-@media only screen and (max-width: 600px) {
-  .faux-gif {
-width: 90%;
-height: 90%;
-  }
-}
+
 .faux-gif:hover {
   animation-play-state: paused;
 }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 12px;
+    font-family: Helvetica;
+  }
+  p {
+    font-size: 10px;
+    font-family: Helvetica;
+  }
+  .faux-gif {
+    width: 90%;
+    height: 90%;
+  }
+}
+
 
 @keyframes giffy {
   0% {

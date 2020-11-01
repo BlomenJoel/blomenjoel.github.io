@@ -43,5 +43,9 @@ export const photos = [
         id: 8,
         title: null,
         filename: "trams.jpg",
+    },{
+        id: 9,
+        title: null,
+        filename: "italy-2.jpg",
     },
 ]
