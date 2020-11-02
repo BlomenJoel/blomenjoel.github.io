@@ -39,7 +39,7 @@
     background-size: 100%;
     background-color: white;
   }
-  .background--grey__shade {
+  .background--black__shade {
     background-color: rgba(0, 0, 0, 0.6);
   }
   .text-area--size {
