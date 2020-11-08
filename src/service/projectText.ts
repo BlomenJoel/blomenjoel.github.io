@@ -14,6 +14,13 @@ export const projectPreviewText = [
     imgSrc: "./desktop-calendar.png",
   },
   {
+    id: 'belgium',
+    key: 'project',
+    rubric: "Internationell produktutvecklingstävling",
+    description: "Som representant för Chalmers universitet åkte jag ner till Belgien för att tävla i en internationell produktutvecklingstävling med över 200 deltagare.",
+    imgSrc: "./preview-belgium.png",
+  },
+  {
     key: 'photos',
     rubric: "Diverse foton och grafik",
     description: "Ett av mina intressen är att fota så här är några av bilderna jag har tagit.",
@@ -41,6 +48,16 @@ export const Projects = [
     backgroundImgSrc: "./desktop-calendar.png",
     backgroundText: "När jag började på Chalmers och kom in i föreningslivet insåg jag hur möten bara sväljer tid. Jag hade inte tid att bara sitta på möten, för att hinna med plugget och ha en fritid krävdes det att jag var mer effektiv med min tid. Och inte bara det, en stor del av universits tiden handlar om att hitta sin identitet. Precis det handlar Stephen Covey's bok handlar om, identitet, prioritering och planering.",
     visionText: "Mitt mål var att försöka skapa en kalender som följde Stevens idéer. Kalendern skulle ha ett fokus på mål och vision.",
+    video: 'calendar-video.mp4',
+  },
+  {
+    key: 'belgium',
+    background: "belgium-background",
+    title:'Internationell produktutvecklingstävling',
+    summary: 'Tävlingen inledde med en slumpmässig gruppindelning, och därefter en snabb presentation av produkten som skulle utvecklas. Vi skulle försöka minska cykel och lastbils olyckor för ett transportföretag. Efter två intensiva veckor fick vi äran att ta emot första pris för vår lösning!',
+    backgroundImgSrc: "./desktop-calendar.png",
+    backgroundText: "Transportföretaget hade stora problem med att cyklister inte förstod att dem var i en blind zon för lastbilsförarna. Vårt mål blev att försöka kommunicera detta, i trafiken.",
+    visionText: "Min roll var att driva för att vår grupp skulle ha en metodisk och användarcentrarad process.",
     video: 'calendar-video.mp4',
   },
 ];

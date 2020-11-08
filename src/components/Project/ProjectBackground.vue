@@ -44,6 +44,11 @@
     background-size: contain;
     background-position: center;
   }
+   .belgium-background {
+    background-image: url("../../assets/preview-belgium.png");
+    background-size: contain;
+    background-position: center;
+  }
   @media only screen and (max-width: 600px) {
     .size--text {
       width: 80%;

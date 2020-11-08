@@ -7,7 +7,7 @@
         VISA MER
       </button>
     </div>
-    <img :src="getImgUrl()" class="img--max-width" :alt="imgSrc" />
+    <img :src="getImgUrl()" class="img--max-width py-5" :alt="imgSrc" />
   </div>
 </template>
 
