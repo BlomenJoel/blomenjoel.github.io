@@ -25,7 +25,7 @@
       </div>
     </div>
     <transition name="slide-fade">
-      <router-view class="child-view" />
+      <router-view />
     </transition>
     <contact />
   </div>

@@ -1,7 +1,8 @@
 <template>
   <div :class="background">
-    <div class="pl-5 pb-5 d-flex padding-top background--black__shade">
-      <div class="px-md-5 px-3 text-area--color">
+  <div class="background--black__shade">
+    <div class="pl-5 pb-5 d-flex padding-top total-text--size">
+      <div class="px-md-5 pr-3 text-area--color">
         <h2>PROJEKT</h2>
         <p>{{ project.title }}</p>
       </div>
@@ -9,6 +10,7 @@
         <h2>SUMMERING</h2>
         <p>{{ project.summary }}</p>
       </div>
+    </div>
     </div>
   </div>
 </template>
@@ -55,5 +57,12 @@
     .padding-top {
       padding-top: 20px;
     }
+    .total-text--size{
+      max-width: 70%;
+      padding: auto;
+    }
+     .text-area--size {
+    max-width: 100%;
+  }
   }
 </style>

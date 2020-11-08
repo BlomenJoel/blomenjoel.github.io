@@ -53,7 +53,7 @@
     }
     .size--page {
       height: 80%;
-      padding: 8% 5%;
+      padding: 8% 15% 8% 5%;
       background-color: rgba(0, 0, 0, 0.6);
     }
   }

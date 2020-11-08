@@ -8,6 +8,8 @@ import Project from "./components/Project/Project.vue";
 import StartPage from "./views/StartPage.vue";
 import Gallery from "./components/Gallery.vue";
 import Photo from "./components/Photo.vue";
+import vuetify from '@/plugins/vuetify' // path to vuetify export
+
 const routes = [
   { path: "/project/:id", component: Project, name: "project" },
   { path: "/", component: StartPage, name: "home" },
@@ -42,5 +44,6 @@ Vue.use(IconsPlugin);
 new Vue({
   el: "#app",
   router: router,
+  vuetify,
   render: (h) => h(App),
 });

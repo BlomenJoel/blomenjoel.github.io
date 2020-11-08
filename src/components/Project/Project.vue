@@ -2,7 +2,7 @@
   <div class="background--color">
     <project-start :project="project" class="page--padding-bottom" />
     <project-background :project="project" class="page--padding-bottom" />
-    <project-vision :project="project" />
+    <project-vision :project="project" class="page--padding-bottom"/>
     <project-result :project="project" />
   </div>
 </template>
@@ -41,5 +41,10 @@ export default {
 }
 .background--color {
   background: black;
+}
+@media only screen and (max-width: 600px) {
+  .page--padding-bottom {
+  margin-bottom: 40%;
+}
 }
 </style>

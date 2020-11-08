@@ -1,31 +1,35 @@
 <template>
-  <div class="d-md-flex contact--height mx-5 my-2">
+  <div class="d-flex contact--height mx-5 py-2">
     <v-spacer />
-    <v-icon>{{ phoneIcon }}</v-icon>
-    <span class="pt-2 pl-2 pr-5 text--link">072-200 28 64</span>
-    <a href="mailto: blomenjoel@gmail.com" class="d-flex">
+    <div class="d-flex pl-2 p-md-0">
+      <v-icon>{{ phoneIcon }}</v-icon>
+      <p class=" pl-2 pt-2 pr-md-5 text--link">072-200 28 64</p>
+    </div>
+    <a href="mailto: blomenjoel@gmail.com" class="d-flex px-3 p-md-0">
       <v-icon>{{ emailIcon }} </v-icon>
-      <p class="pt-2 pl-2 pr-5 text--link">
+      <p class=" pl-2 pt-2 pr-5 text--link" v-if="$vuetify.breakpoint.mdAndUp">
         blomenjoel@gmail.com
       </p>
     </a>
-    <a :href="item.loc" download>
-      <img src="@/assets/CV-logo.png" class="resume--size pt-1" />
-      <span class="text--link pl-2 pt-2 cv--text__size">CV</span>
+    <a :href="item.loc" download class="d-flex px-3 p-md-0">
+      <v-icon>{{ cvIcon }} </v-icon>
+      <p class="text--link  pt-2 pl-2 " v-if="$vuetify.breakpoint.mdAndUp">CV</p>
     </a>
-    <v-spacer />
+    <v-spacer/>
   </div>
 </template>
 
 <script>
 import { mdiCellphone } from "@mdi/js";
 import { mdiEmail } from "@mdi/js";
+import { mdiFileDocumentOutline } from '@mdi/js';
 export default {
   data() {
     return {
       item: { loc: require("../assets/joelBlomenCv.jpg") },
       phoneIcon: mdiCellphone,
       emailIcon: mdiEmail,
+      cvIcon: mdiFileDocumentOutline
     };
   },
 };
@@ -34,9 +38,6 @@ export default {
 <style scoped>
 .resume--size {
   width: 2vw;
-}
-.contact--height {
-  height: 5vh;
 }
 .text--black {
   color: black;
@@ -50,9 +51,6 @@ export default {
   }
   .resume--size {
     width: 20px;
-  }
-  .contact--height {
-    height: 30px;
   }
 }
 </style>

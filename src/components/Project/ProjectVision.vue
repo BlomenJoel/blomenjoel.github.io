@@ -36,7 +36,7 @@ export default {
   }
   .size--page {
     height: 80%;
-    padding: 8% 5%;
+      padding: 8% 15% 8% 5%;
   }
 }
 </style>

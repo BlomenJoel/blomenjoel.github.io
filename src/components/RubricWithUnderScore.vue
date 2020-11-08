@@ -44,5 +44,8 @@ export default {
   .font--size__mobile {
     font-size: 16px;
   }
+  .underscore {
+  background-position: 9vw -1vw;
+}
 }
 </style>

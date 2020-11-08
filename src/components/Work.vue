@@ -50,10 +50,10 @@
   }
   @media only screen and (max-width: 600px) {
     .color-underscore {
-      background-position: 60px 12px;
+  background-position: 19vw -1vw;
       width: 160px;
-      max-height: 20px;
-      padding-bottom: 10xp;
+      max-height: 18px;
     }
+   
   }
 </style>
