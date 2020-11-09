@@ -45,7 +45,12 @@
     background-position: center;
   }
    .belgium-background {
-    background-image: url("../../assets/preview-belgium.png");
+    background-image: url("../../assets/background-belgium.jpg");
+    background-size: contain;
+    background-position: center;
+  }
+   .vindpinad-background {
+    background-image: url("../../assets/vindpinad-background.jpg");
     background-size: contain;
     background-position: center;
   }

@@ -41,6 +41,18 @@
     background-size: 100%;
     background-color: white;
   }
+  .belgium-background {
+    background-image: url("../../assets/preview-belgium.png");
+    background-size: 60%;
+    background-color: white;
+    background-position: center;
+  }
+  .belgium-background {
+    background-image: url("../../assets/vindpinad-logo.png");
+    background-size: 60%;
+    background-color: white;
+    background-position: center;
+  }
   .background--black__shade {
     background-color: rgba(0, 0, 0, 0.6);
   }

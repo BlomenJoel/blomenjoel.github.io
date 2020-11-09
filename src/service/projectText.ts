@@ -21,6 +21,13 @@ export const projectPreviewText = [
     imgSrc: "./preview-belgium.png",
   },
   {
+    id: 'bachelor-thesis',
+    key: 'project',
+    rubric: "Kandidatuppsats hos Vindpinad",
+    description: "På startup-bolaget fick jag och min exjobbspartner i uppdrag att göra två saker, utveckla deras hemsida, samt förbättra deras hållbarhets-utvärderingsmodell.",
+    imgSrc: "./vindpinad-logo.png",
+  },
+  {
     key: 'photos',
     rubric: "Diverse foton och grafik",
     description: "Ett av mina intressen är att fota så här är några av bilderna jag har tagit.",
@@ -32,7 +39,7 @@ export const Projects = [
   {
     key: 'camera',
     background: "camera-background",
-    title:'Ljusmätare',
+    title: 'Ljusmätare',
     summary: "För att få ett bra kort med en analog kamera måste man veta ljusförhållandena. Det är sällan gamla kamerors mätare är att lita på dock, men som tur är finns det en sådan inbyggd i telefonen! Och med det web-api'et i webbläsare är den informationen tillgänglig.",
     backgroundImgSrc: "./italy-2.jpg",
     styleImg: "./calendar-style.png",
@@ -43,7 +50,7 @@ export const Projects = [
   {
     key: 'calendar',
     background: "calendar-background",
-    title:'Planerings webb applikation',
+    title: 'Planerings webb applikation',
     summary: 'Fjärde generationens planeringsverktyg syfte är att lägga fokuset på mål och värderingar. Inte lägga lika mycket tyngd på tider och möten, utan istället att ta steg framåt och utvecklas.',
     backgroundImgSrc: "./desktop-calendar.png",
     backgroundText: "När jag började på Chalmers och kom in i föreningslivet insåg jag hur möten bara sväljer tid. Jag hade inte tid att bara sitta på möten, för att hinna med plugget och ha en fritid krävdes det att jag var mer effektiv med min tid. Och inte bara det, en stor del av universits tiden handlar om att hitta sin identitet. Precis det handlar Stephen Covey's bok handlar om, identitet, prioritering och planering.",
@@ -53,8 +60,18 @@ export const Projects = [
   {
     key: 'belgium',
     background: "belgium-background",
-    title:'Internationell produktutvecklingstävling',
+    title: 'Internationell produktutvecklingstävling',
     summary: 'Tävlingen inledde med en slumpmässig gruppindelning, och därefter en snabb presentation av produkten som skulle utvecklas. Vi skulle försöka minska cykel och lastbils olyckor för ett transportföretag. Efter två intensiva veckor fick vi äran att ta emot första pris för vår lösning!',
+    backgroundImgSrc: "./desktop-calendar.png",
+    backgroundText: "Transportföretaget hade stora problem med att cyklister inte förstod att dem var i en blind zon för lastbilsförarna. Vårt mål blev att försöka kommunicera detta, i trafiken.",
+    visionText: "Min roll var att driva för att vår grupp skulle ha en metodisk och användarcentrarad process.",
+    video: 'calendar-video.mp4',
+  },
+  {
+    key: 'bachelor-thesis',
+    background: "vindpinad-background",
+    title: 'Kandidatuppsats',
+    summary: 'Vindpinad har en stor utmaning, dem vill minska konsumtion men inledningsvis kommer deras intänkter främst komma från att sälja produkter. Vi skulle försöka komma på en design för hemsida som hade fokus på produkterna, men inte att sälja.',
     backgroundImgSrc: "./desktop-calendar.png",
     backgroundText: "Transportföretaget hade stora problem med att cyklister inte förstod att dem var i en blind zon för lastbilsförarna. Vårt mål blev att försöka kommunicera detta, i trafiken.",
     visionText: "Min roll var att driva för att vår grupp skulle ha en metodisk och användarcentrarad process.",
